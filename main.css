@@ -192,9 +192,6 @@ p {
   min-height: 144px;
 }
 
-.tours__content {
-}
-
 .tours__title {
   padding: 20px 22px;
   font-size: 24px;
@@ -228,19 +225,18 @@ p {
   color: #303030;
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 2px;
+  margin-bottom: 0.5px;
 }
 
 .btn__wrap {
   position: relative;
-  width: 140px;
-  height: 60px;
-  margin-left: 23px;
+  margin-left: 21px;
 }
 
 .tours__btn {
   padding-left: 31px;
   padding-right: 26px;
+  padding-bottom: 14px;
   position: absolute;
   color: #F5170E;
   border: 2px solid;
@@ -354,12 +350,12 @@ p {
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url("/img/gates.png") center center / cover no-repeat;
+  background: url("./img/gates.png") center center / cover no-repeat;
   border-radius: 5px;
 }
 
 .about__desc {
-  background: url("/img/mountains.png");
+  background: url("./img/mountains.png");
   padding: 68px 82px;
   color: #000;
   display: inline-block;

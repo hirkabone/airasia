@@ -48,7 +48,7 @@ p {
   left: 0;
   top: 0;
   position: relative;
-  margin-bottom: 43px;
+  margin-bottom: 45px;
 }
 
 .logo {
@@ -124,12 +124,12 @@ p {
   font-size: 72px;
   font-weight: bold;
   line-height: 98px;
-  margin-bottom: 26px;
+  margin-bottom: 27px;
 }
 
 .headline__subtitle {
   font-size: 18px;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .btn {
@@ -149,13 +149,13 @@ p {
 }
 
 .tours {
-  margin-bottom: 123px;
+  margin-bottom: 124px;
 }
 
 .tours__title-wrap {
   position: relative;
   display: inline-block;
-  margin-bottom: 51px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -193,7 +193,6 @@ p {
 }
 
 .tours__content {
-  margin-bottom: -14px;
 }
 
 .tours__title {
@@ -203,8 +202,7 @@ p {
 }
 
 .service {
-  padding: 17px 26px;
-  margin-bottom: -4px;
+  padding: 6px 26px;
 }
 
 .service__item {
@@ -230,18 +228,23 @@ p {
   color: #303030;
   font-size: 14px;
   line-height: 21px;
+  margin-bottom: 2px;
 }
 
 .btn__wrap {
-  text-align: left;
-  margin: 0 0 24px 18px;
+  position: relative;
+  width: 140px;
+  height: 60px;
+  margin-left: 23px;
 }
 
 .tours__btn {
+  padding-left: 31px;
+  padding-right: 26px;
+  position: absolute;
   color: #F5170E;
   border: 2px solid;
   background: #fff;
-  
 }
 
 .tours__btn:hover {
@@ -258,7 +261,7 @@ p {
 }
 
 .news__list {
-  margin-bottom: 51px;
+  margin-bottom: 54px;
 }
 
 .news__item {
@@ -363,7 +366,7 @@ p {
   vertical-align: top;
   width: 785px;
   margin-left: -140px;
-  margin-top: 108px;
+  margin-top: 96px;
   border-radius: 5px;
   height: 455px;
 }
@@ -371,11 +374,11 @@ p {
 .about__title {
   font-weight: bold;
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .about__desc-text {
-  margin-bottom: 42px;
+  margin-bottom: 85px;
 }
 
 .about__desc-text p {

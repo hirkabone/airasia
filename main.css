@@ -34,6 +34,10 @@ p {
   box-sizing: border-box;
 }
 
+.main-page-wrapper {
+  background: url("./img/elephant.png") center top -30px no-repeat, url("./img/mountainBg.png") right -250px bottom 157px no-repeat;
+}
+
 .headline {
   margin-bottom: 245px;
 }

@@ -362,30 +362,27 @@ p {
 }
 
 .about__desc {
-  background: url("./img/mountains.png");
-  padding: 68px 82px;
+  background: url("./img/mountains.png") no-repeat;
+  padding: 70px 81px;
   color: #000;
   display: inline-block;
   vertical-align: top;
   width: 785px;
+  height: 455px;
   margin-left: -140px;
   margin-top: 96px;
   border-radius: 5px;
-  height: 455px;
+  overflow: auto;
 }
 
 .about__title {
   font-weight: bold;
-  font-size: 38px;
-  margin-bottom: 35px;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 .about__desc-text {
-  line-height: 26px;
-  margin-bottom: 72px;
-  max-height: 110px;
-  max-width: 510px;
-  overflow: hidden;
+  margin-bottom: 42px;
 }
 
 .about__desc-text p {

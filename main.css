@@ -6,6 +6,7 @@ body {
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 a {
@@ -35,7 +36,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url("./img/elephant.png") center top -30px no-repeat, url("./img/mountainBg.png") right -250px bottom 157px no-repeat;
+  background: url("./img/elephant.png") center top no-repeat, url("./img/mountainBg.png") right -240px bottom 157px no-repeat;
 }
 
 .headline {
@@ -50,9 +51,9 @@ p {
 .header {
   height: 124px;
   left: 0;
-  top: 0;
+  top: 27px;
   position: relative;
-  margin-bottom: 45px;
+  margin-bottom: 71px;
 }
 
 .logo {
@@ -60,16 +61,17 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.logo__pic {
   width: 85px;
   height: 36px;
 }
 
+.logo__pic {
+  max-width: 100%;
+}
+
 
 .menu {
-  top: 10px;
+  top: 9px;
   left: 165px;
   position: absolute;
 }
@@ -122,7 +124,7 @@ p {
   position: absolute;
   text-align: right;
   right: 2px;
-  top: 29px;
+  top: 30px;
 }
 
 .headline__text {
@@ -132,8 +134,8 @@ p {
 .headline__title {
   font-size: 72px;
   font-weight: bold;
-  line-height: 98px;
-  margin-bottom: 27px;
+  line-height: 99px;
+  margin-bottom: 25px;
 }
 
 .headline__subtitle {
@@ -189,10 +191,6 @@ p {
   color: #000;
 }
 
-.tours__image-wrap {
-  margin-bottom: 7px;
-}
-
 .tours__item:last-child {
   margin-right: 0;
 }
@@ -201,52 +199,47 @@ p {
   min-height: 144px;
 }
 
+.tours__content-wrap {
+  padding: 29px 22px 18px 22px;
+}
+
+.tours__content {
+  margin-bottom: 21px;
+}
+
 .tours__title {
-  padding: 20px 22px;
   font-size: 24px;
   font-weight: bold;
 }
 
 .service {
-  padding: 6px 26px;
+  margin-left: 8px;
+  margin-bottom: 19px;
 }
 
 .service__item {
   width: 130px;
   display: inline-block;
-  margin-right: 22px;
-}
-
-.service__item:last-child {
-  margin-right: 0;
+  margin-right: 16px;
 }
 
 .service__desc {
+  padding-left: 5px;
   font-size: 16px;
   color: #666;
   display: inline-block;
-  margin-left: 9px;
   vertical-align: top;
 }
 
 .tours__desc {
-  padding: 7px 16px 24px 21px;
   color: #303030;
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 0.5px;
-}
-
-.btn__wrap {
-  position: relative;
-  margin-left: 21px;
+  margin-bottom: 24px;
 }
 
 .tours__btn {
-  padding-left: 31px;
-  padding-right: 26px;
-  padding-bottom: 14px;
-  position: absolute;
+  padding: 16px 30px;
   color: #F5170E;
   border: 2px solid;
   background: #fff;
@@ -258,7 +251,7 @@ p {
 }
 
 .news {
-  margin-bottom: 146px;
+  margin-bottom: 145px;
 }
 
 .news__title-wrap {
@@ -383,12 +376,16 @@ p {
 
 .about__title {
   font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 37px;
+  font-size: 38px;
+  margin-bottom: 35px;
 }
 
 .about__desc-text {
-  margin-bottom: 85px;
+  line-height: 26px;
+  margin-bottom: 90px;
+  max-height: 110px;
+  max-width: 510px;
+  overflow: hidden;
 }
 
 .about__desc-text p {
@@ -409,7 +406,7 @@ hr {
 
 .footer-container__content {
   border-top: 1px solid rgba(255, 255, 255, 0.104);
-  padding-top: 45px;;
+  padding-top: 47px;
 }
 
 .footer {
@@ -419,7 +416,7 @@ hr {
 
 .socials {
   position: absolute;
-  top: 6px;
+  top: 4px;
   left: 702px;
 }
 

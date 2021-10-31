@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 7.5px;
-    background: url('/img/images/headline\ 1.png') right 50% top no-repeat;
+    background: url("../../img/images/headline.png") right 50% top no-repeat;
 }
 
 .top-line__container {

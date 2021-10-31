@@ -57,6 +57,6 @@ img {
 }
 
 .main-page-wrapper {
-  background: url("/img/images/elephant.png") center top no-repeat, url("/img/images/mountainBg.pngs") right -240px bottom 157px no-repeat;
+  background: url("../../img/images/elephant.png") center top no-repeat, url("/img/images/mountainBg.pngs") right -240px bottom 157px no-repeat;
 }
 

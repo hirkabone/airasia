@@ -11,13 +11,13 @@
   content: "";
   width: 490px;
   height: 505px;
-  background: url("/img/images/gates.png") center center / cover no-repeat;
+  background: url("../../img/images/gates.png") center center / cover no-repeat;
   border-radius: 5px;
   display: block;
 }
 
 .about__desc {
-  background: url("/img/images/mountains.png") center center / cover no-repeat;
+  background: url("../../img/images/mountains.png") center center / cover no-repeat;
   padding: 70px 90px;
   color: #000;
   display: inline-block;

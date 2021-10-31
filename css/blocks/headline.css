@@ -1,0 +1,42 @@
+.headline {
+  margin-bottom: 185px;
+}
+
+.headline__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+.header {
+  padding-top: 30px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align--right {
+  justify-self: flex-end;
+}
+
+.headline__text {
+  width: 46%;
+}
+
+.headline__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 99px;
+  margin-bottom: 25px;
+}
+
+.headline__subtitle {
+  font-size: 18px;
+  margin-bottom: 31px;
+}

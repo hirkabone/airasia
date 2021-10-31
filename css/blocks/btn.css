@@ -1,0 +1,30 @@
+.btn {
+  background: #F5170E;
+  border-radius: 35px;
+  text-decoration: none;
+  padding: 18px 39px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #DA0100;
+}
+
+.tours__btn {
+  margin-top: auto;
+  padding: 16px 30px;
+  color: #F5170E;
+  border: 2px solid;
+  background: #fff;
+}
+
+.tours__btn:hover {
+  background: #F5170E;
+  color: #fff;
+}
+
+

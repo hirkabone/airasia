@@ -1,0 +1,22 @@
+@import url('./layout/fonts.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/headline.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/tours.css');
+@import url('./blocks/btn.css');
+@import url('./blocks/news.css');
+@import url('./blocks/paginator.css');
+@import url('./blocks/about-us.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/socials.css');
+@import url('./blocks/top-line.css');
+@import url('./blocks/page-content.css');
+@import url('./blocks/inner-section.css');
+
+
+
+

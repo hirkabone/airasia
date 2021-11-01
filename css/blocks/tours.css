@@ -3,20 +3,24 @@
 }
 
 .tours__title-wrap {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-bottom: 50px;
 }
 
 .title {
   font-size: 36px;
   font-weight: bold;
-  display: inline-block;
 }
 
-.tours__icon {
+.title__tours {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.title__tours::after {
+  content: url('../../img/icons/flame.png');
   margin-left: 12px;
-  display: inline-block;
 }
 
 .tours__list {
@@ -47,8 +51,14 @@
   margin-right: 0;
 }
 
+.tour__image-wrap {
+  height: 144px;
+}
+
 .tour__image {
-  min-height: 144px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .tour__content-wrap {

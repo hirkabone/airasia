@@ -18,7 +18,8 @@
 
 .about__desc {
   background: url("../../img/images/mountains.png") center center / cover no-repeat;
-  padding: 70px 90px;
+  padding: 69px 82px;
+  padding-right: 190px;
   color: #000;
   display: inline-block;
   vertical-align: top;
@@ -32,11 +33,12 @@
 .about__title {
   font-weight: bold;
   font-size: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .about__desc-text {
   margin-bottom: 42px;
+  line-height: 27px;
 }
 
 .about__desc-text p {

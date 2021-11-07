@@ -39,6 +39,12 @@ p {
   box-sizing: border-box;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 img {
   display: block;
 }

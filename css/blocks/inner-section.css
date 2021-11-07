@@ -46,3 +46,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.inner-reviews {
+  padding-top: 63px;
+  padding-bottom: 96px;
+}
+
+.inner-section-reviews__title {
+  margin-bottom: 55px;
+}

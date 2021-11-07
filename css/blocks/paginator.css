@@ -33,6 +33,7 @@
 }
 
 .paginator__link:hover {
+  transition: .6s;
   background: #fff;
   color: #F5170E;
 }

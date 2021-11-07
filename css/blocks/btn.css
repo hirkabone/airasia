@@ -12,6 +12,7 @@
 
 .btn:hover {
   background: #DA0100;
+  transition: .6s;
 }
 
 .tours__btn {

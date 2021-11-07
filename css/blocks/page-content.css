@@ -14,6 +14,7 @@
 }
 
 .service:hover .service__btn{
+  transition: .6s;
   background: #F5170E;
   color: #fff;
 }

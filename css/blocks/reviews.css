@@ -40,7 +40,7 @@
   color: #1A1B1E;
   text-decoration: none;
   margin-bottom: 18px;
-  transition-duration: .2s;
+  transition: color .2s ease-out;
 }
 
 .review__user:hover {

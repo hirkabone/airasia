@@ -18,17 +18,12 @@
   align-items: center;
 }
 
-.footer__col--align--right {
-  display: flex;
-  align-items: flex-end;
-}
-
 .inner-footer__container {
   padding: 20px 0;
 }
 
 .footer__container-section {
-  height: 90px;
+  padding: 17px 0;
 }
 
 .inner-footer {

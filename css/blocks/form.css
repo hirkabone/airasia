@@ -74,7 +74,7 @@
 .form__btns {
   display: flex;
   justify-content: flex-end;
-  transition-duration: .4s;
+  transition: background .4s ease-in;
 }
 
 .btn--color--black {

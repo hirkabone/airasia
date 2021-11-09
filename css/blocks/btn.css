@@ -8,19 +8,20 @@
   font-weight: bold;
   display: inline-block;
   text-align: center;
+  transition-duration: .3s;
 }
 
 .btn:hover {
   background: #DA0100;
-  transition: .6s;
 }
 
 .tours__btn {
   margin-top: auto;
   padding: 16px 30px;
   color: #F5170E;
-  border: 2px solid;
+  border: 1px solid;
   background: #fff;
+  transition-duration: .4s;
 }
 
 .tours__btn:hover {

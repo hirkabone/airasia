@@ -11,10 +11,10 @@
   display: flex;
   margin-bottom: 50px;
   text-decoration: none;
+  transition-duration: .5s;
 }
 
 .service:hover .service__btn{
-  transition: .6s;
   background: #F5170E;
   color: #fff;
 }

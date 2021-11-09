@@ -29,6 +29,7 @@
 
 .form__input--textarea {
   height: 235px;
+  resize: none;
 }
 
 .form__controls {
@@ -62,6 +63,10 @@
    background: #B9EAE4;
 }
 
+.controls__tag {
+  display: block;
+}
+
 .controls__checkbox {
   display: none;
 }
@@ -69,6 +74,7 @@
 .form__btns {
   display: flex;
   justify-content: flex-end;
+  transition-duration: .4s;
 }
 
 .btn--color--black {
